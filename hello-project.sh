@@ -9,6 +9,6 @@ cd nnUNet
 pip3 install --user -e .
 
 # setup folders for data processing on scc
-cd ..
-mkdir -p ./dataset
-mkdir 
+# cd ..
+# mkdir -p ./dataset
+# mkdir 
