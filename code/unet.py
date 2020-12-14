@@ -1,4 +1,3 @@
-# import packages
 import os
 import math as mt
 import numpy as np
