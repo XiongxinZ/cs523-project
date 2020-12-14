@@ -6,7 +6,7 @@ dct = {
 "reference": "KiTS data for nnunet",
 "licence":"",
 "relase":"0.0",
-"tensorImageSize": "4D",
+"tensorImageSize": "3D",
 "modality": { 
    "0": "CT"
  }, 
