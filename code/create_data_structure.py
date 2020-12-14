@@ -5,8 +5,7 @@ import nibabel as nib
 root = '/projectnb2/ec523/yqz2019/project/kits19/'  # change this
 src = 'data/case_00'
 
-# change this
-dst1 = '/projectnb2/ec523/yqz2019/project/environment/ours/datas/2D/'
+dst1 = '/projectnb2/ec523/yqz2019/project/environment/ours/datas/2D/'  # change this
 os.mkdir(dst1)
 os.mkdir(dst1 + 'images')
 os.mkdir(dst1 + 'labels')
