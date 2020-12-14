@@ -3,8 +3,7 @@ from shutil import copyfile
 
 root = '/projectnb2/ec523/yqz2019/project/kits19/'
 src = 'data/case_00'
-# change this
-dst = '/projectnb2/ec523/yqz2019/project/environment/nnUNet/nnunet/nnUNet_raw_data_base/nnUNet_raw_data/Task41_KiTS/'
+dst = '/projectnb2/ec523/yqz2019/project/environment/nnUNet/nnunet/nnUNet_raw_data_base/nnUNet_raw_data/Task41_KiTS/'  # change this
 
 os.mkdir(dst)
 os.mkdir(dst + 'imagesTr')
