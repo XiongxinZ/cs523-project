@@ -1,4 +1,4 @@
-All the codes are in the **cold/** folder.
+All the codes are in the **code/** folder.
 
 ### Dataset Preparation
 
