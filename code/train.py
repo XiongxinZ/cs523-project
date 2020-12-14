@@ -13,13 +13,15 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from unet import TwoDUNet
 from dataset import factory
 
+# change these begin
 DROPOUT_RATIO = 0.1
-TRAIN_NUM = 900
-TEST_NUM = 100
+TRAIN_NUM = 45900
+TEST_NUM = 5100
 BATCH_SIZE = 4
-CHECK_NUM = TRAIN_NUM // (BATCH_SIZE*4)
 USE_CUDA = True
 EPOCH = 90
+# change these end
+CHECK_NUM = TRAIN_NUM // (BATCH_SIZE*4)
 LUT = np.zeros((3,3),dtype=np.uint8)
 LUT[0]=[255,0,0]
 LUT[1]=[0,255,0]
